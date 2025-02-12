@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE HUNTERS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="admin.css" />
+    <link rel="stylesheet" href="nor.css" />
+  </head>
+  <body>
+    <style>
+      button {
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        background-color: #ffffff;
+        padding: 5px;
+        position: relative;
+        cursor: pointer;
+        z-index: 48798;
+        transition: 0.3s;
+      }
+      button::before {
+        position: absolute;
+        content: "";
+        width: 10%;
+        height: 100%;
+        background-color: rgb(255, 0, 55);
+        left: -30px;
+        top: 0;
+        transition: 0.3s;
+      }
+      button:hover:before {
+        left: -7px;
+        background-color: white;
+      }
+      button::after {
+        position: absolute;
+        content: "";
+        width: 10%;
+        height: 100%;
+        background-color: #ff0037;
+        right: -30px;
+        top: 0;
+        transition: 0.3s;
+      }
+      button:hover::after {
+        right: -7px;
+        background-color: white;
+      }
+
+      /* button:hover:before {
+        transform: translate(50%, -50%);
+      } */
+
+      /* button:hover::after {
+        transform: translate(-50%, -50%);
+      } */
+    </style>
+    <div class="navbar">
+      <div class="icons">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <div class="container">
+        <div class="nav">
+          <img width="250" src="logo.png" alt="" />
+          <ul>
+            <li><a href="">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#news">news</a></li>
+            <li><a href="#Heroes">Heroes</a></li>
+            <li><a href="#support">support</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="download">
+      <div class="container">
+        <div class="box-download">
+          <div class="imgas">
+          <img src="logo.png" alt="">
+          </div>
+          <button class="downloadgame">game download</button>
+        </div>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="title">
+        <h1>about</h1>
+        <p><span>Our</span> game explanation</p>
+      </div>
+      <div class="box">
+        <img
+          class="Two prime"
+          src="about3.jpeg"
+          alt="The game is all about strategy, creativity, and survival. Each vampire character possesses distinct powers, from unmatched intelligence and tactical brilliance to raw strength and supernatural agility. Players must learn how to harness these abilities effectively to overcome challenges, outsmart enemies, and achieve victory. Whether you prefer to plan every move carefully or dive straight into the action, "
+        />
+        <img
+          class="one prime"
+          src="about2.jpeg"
+          alt="Game is an immersive experience where players dive into a dark and mysterious world filled with vampires. Each character in the game is a unique vampire, endowed with special abilities and skills that set them apart. As a player, you will step into the shoes of these supernatural beings, exploring their stories, facing dangerous enemies, and uncovering secrets hidden in the shadows"
+        />
+        <img
+          class="Three prime"
+          src="about1.jpeg"
+          alt="
+        With its captivating storyline, dynamic gameplay, and richly designed characters, Hunters' Game promises an unforgettable adventure. Explore haunting environments, battle skilled hunters and rival vampires, and make choices that will shape your destiny. Will you become the ultimate predator, or will you fall prey to the dangers lurking in the dark? The choice is yours in this thrilling vampire universe! "
+        />
+      </div>
+      <div class="text">
+        <div class="one-text bigtext">
+          <p id="parg">
+            Game is an immersive experience where players dive into a dark and
+            mysterious world filled with vampires. Each character in the game is
+            a unique vampire, endowed with special abilities and skills that set
+            them apart. As a player, you will step into the shoes of these
+            supernatural beings, exploring their stories, facing dangerous
+            enemies, and uncovering secrets hidden in the shadows
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="news" id="news">
+            <div class="title">
+        <h1>news</h1>
+        <p><span>Our</span>News for Achieving Success</p>
+      </div>
+
+        <div class="box-news">
+          <div class="first-news">
+            <img width="" src="solojan.jpeg" alt="" />
+            <div class="text-news">
+              <h1>
+                Discover some of the abilities of the new character, "Souljan," along with an explanation of its unique features and its story full of mental battles.</h1>
+                              <div class="skills">
+                <div data-num="20%" class="porgores-one">
+                  <p class="parg-one"><span>85%</span> <br>Power</p>
+                </div>
+                <div data-num="20%" class="porgores-two">
+                  <p class="parg-two"><span>90%</span> <br>Exploration</p>
+                </div>
+                <div data-num="20%" class="porgores-three">
+                  <p class="parg-three"><span>70%</span> <br>Weapons</p>
+                </div>
+              </div>
+              <p class="persnol">Soljan is distinguished by extraordinary physical strength, making him a formidable force in hand-to-hand combat and endurance-based challenges. He possesses exceptional reconnaissance abilities, allowing him to scout ahead, gather critical information, and navigate complex terrains with ease. However, his weakness lies in his limited skill with weapons, often relying on his raw strength and strategic insight to overcome obstacles. Despite this, Soljan's resilience and adaptability make him an invaluable asset in any mission.</p>
+              </div> 
+                  <div class="btn">
+      <i class="fa-solid fa-caret-right"></i>
+    </div>
+
+          </div>
+          <div class="first-news news-two">
+            <img width="" src="mondo.jpeg" alt="" />
+            <div class="text-news">
+              <h1>
+                "Mondo" is a genius with exceptional skills in using firearms. His sharp reflexes and accuracy make him a powerful character in any situation.
+</h1>
+                              <div class="skills">
+                <div data-num="20%" class="porgores-one">
+                  <p class="parg-one"><span>85%</span> <br>Power</p>
+                </div>
+                <div data-num="20%" class="porgores-two">
+                  <p class="parg-two"><span>90%</span> <br>Exploration</p>
+
+                </div>
+                <div data-num="20%" class="porgores-three">
+                  <p class="parg-three"><span>70%</span> <br>Weapons</p>
+                </div>
+              </div>
+              <p class="persnol">Mondo is a genius when it comes to weaponry, showcasing unmatched skill and precision in using a wide range of weapons. His mastery of firearms and tactical equipment makes him a formidable opponent on the battlefield. Physically, Mondo possesses an average level of muscular strength, which he utilizes effectively when the situation demands, although it is not his primary asset. However, his weakness lies in reconnaissance, as he struggles with exploration and gathering information in unfamiliar or complex environments.</p>
+              </div> 
+                                <div class="btn">
+      <i class="fa-solid fa-caret-right"></i>
+    </div>
+
+          </div>
+          <div class="first-news three-two">
+            <img width="" src="mapGAMAN.jpeg" alt="" />
+            <div class="text-news">
+              <h1>
+Map Integration Added to GAMAN: New Features Include Interactive Navigation for an Enhanced Experience
+</h1>
+                              <div class="skills">
+                <div data-num="20%" class="porgores-one">
+                  <p class="parg-one"><span>90%</span> <br>Night Difficulty</p>
+                </div>
+                <div data-num="20%" class="porgores-two">
+                  <p class="parg-two"><span>80%</span> <br>Rain</p>
+
+                </div>
+                <div data-num="20%" class="porgores-three">
+                  <p class="parg-three"><span>70%</span> <br>Monsters</p>
+                </div>
+              </div>
+              <p class="persnol">The new update in GAMAN introduces an interactive map that significantly improves the gaming experience. Players can easily navigate through various areas, with the map providing detailed information about key locations and the surrounding environment. It also includes interactive elements that let players discover new paths and strategic points to enhance their gameplay. This feature makes the game more immersive, offering a deeper level of engagement and exploration.</p>
+              </div> 
+                                <div class="btn">
+      <i class="fa-solid fa-caret-right"></i>
+    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Heroes" class="Hereos">
+                  <div class="title">
+        <h1>Heroes</h1>
+        <p><span>Our</span>News for Achieving Success</p>
+                  </div>
+      <h1 class="title-Hereos"> 1- Owners of the flames</h1>
+      <div class="box-info">
+        <div class="big">
+                  <div class="info">
+          <img src="Sniper man.jpeg" alt="">
+          <div class="subtitle">
+           <p>"Command" is a person who values silence and calm, hiding behind precision and patience. He doesn’t rush; instead, he observes carefully, knowing when to move and when to wait. In his world, the sniper rifle is not just a tool, but a means to control the moment. With a sharp eye and a steady mind, he picks his targets wisely, striking when the outcome is certain. He respects time and understands that true strength lies in mastering situations, not in reacting impulsively.</p>
+          <h1 class="Abilities">Abilities</h1>
+          <div class="box-Abilities">
+            <div class="one-img">
+              <img  src="flames/endurance.png" alt="">
+              <p>endurance</p>
+            </div>
+            <div class="two-img">
+              <img src="flames/flames.png" alt="">
+              <p>flames</p>
+            </div>
+            <div class="three-img">
+              <img src="flames/alternative-medicine.png" alt="">
+              <p>alternative</p>
+            </div>
+          </div>
+                    <h1 class="Abilities">Disadvantages & Advantages</h1>
+          <div class="box-Abilities">
+            <ul>
+              <li>The night</li>
+              <li>Running</li>
+            </ul>
+            <ul>
+              <li>Endurance</li>
+              <li>Strength</li>
+            </ul>
+          </div>
+            </div>
+        </div>
+       <div class="btn-bot">
+         <button>Show details</button>
+       </div>
+        </div>
+        <div class="big">
+                  <div class="info">
+          <img src="BOOM.jpeg" alt="">
+          <div class="subtitle">
+           <p>"Solly" embraces silence and control, finding power in patience and calculation. He moves with intent, never reckless, always aware. To him, explosives are more than weapons—they are instruments of fate, shaping outcomes with precision. Each detonation is a statement, a carefully orchestrated event that bends chaos to his will. He understands that true dominance is not in force alone, but in knowing when to strike and when to wait, turning time itself into his greatest ally</p>
+          <h1 class="Abilities">Abilities</h1>
+          <div class="box-Abilities">
+            <div class="one-img">
+              <img  src="flames/flames01.png" alt="">
+              <p>endurance</p>
+            </div>
+            <div class="two-img">
+              <img src="flames/flames02.png" alt="">
+              <p>flames</p>
+            </div>
+            <div class="three-img">
+              <img src="flames/flames03.png" alt="">
+              <p>alternative</p>
+            </div>
+          </div>
+                    <h1 class="Abilities">Disadvantages & Advantages</h1>
+          <div class="box-Abilities">
+            <ul>
+              <li>The night</li>
+              <li>Running</li>
+            </ul>
+            <ul>
+              <li>Endurance</li>
+              <li>Strength</li>
+            </ul>
+          </div>
+
+            </div>
+        </div>
+       <div class="btn-bot">
+         <button>Show details</button>
+       </div>
+        </div>
+        <div class="big">
+                  <div class="info">
+          <img src="wopen.jpeg" alt="">
+          <div class="subtitle">
+           <p>"Solly" embraces silence and control, finding power in patience and calculation. He moves with intent, never reckless, always aware. To him, explosives are more than weapons—they are instruments of fate, shaping outcomes with precision. Each detonation is a statement, a carefully orchestrated event that bends chaos to his will. He understands that true dominance is not in force alone, but in knowing when to strike and when to wait, turning time itself into his greatest ally</p>
+          <h1 class="Abilities">Abilities</h1>
+          <div class="box-Abilities">
+            <div class="one-img">
+              <img  src="flames/flames04.png" alt="">
+              <p>endurance</p>
+            </div>
+            <div class="two-img">
+              <img src="flames/flames05.png" alt="">
+              <p>flames</p>
+            </div>
+            <div class="three-img">
+              <img src="flames/flames06.png" alt="">
+              <p>alternative</p>
+            </div>
+          </div>
+          <h1 class="Abilities">Disadvantages & Advantages</h1>
+          <div class="box-Abilities">
+            <ul>
+              <li>The night</li>
+              <li>Running</li>
+            </ul>
+            <ul>
+              <li>Endurance</li>
+              <li>Strength</li>
+            </ul>
+          </div>
+            </div>
+        </div>
+       <div class="btn-bot">
+         <button>Show details</button>
+       </div>
+        </div>
+      </div>
+      <h1 class="title-Hereos"> 2- Master of Swords</h1>
+      <div class="box-info">
+        <div class="big">
+                  <div class="info">
+          <img src="daman.jpeg" alt="">
+          <div class="subtitle">
+           <p>"Command" is a person who values silence and calm, hiding behind precision and patience. He doesn’t rush; instead, he observes carefully, knowing when to move and when to wait. In his world, the sniper rifle is not just a tool, but a means to control the moment. With a sharp eye and a steady mind, he picks his targets wisely, striking when the outcome is certain. He respects time and understands that true strength lies in mastering situations, not in reacting impulsively.</p>
+          <h1 class="Abilities">Abilities</h1>
+          <div class="box-Abilities">
+            <div class="one-img">
+              <img  src="knife/knife01.png" alt="">
+              <p>endurance</p>
+            </div>
+            <div class="two-img">
+              <img src="knife/knife02.png" alt="">
+              <p>flames</p>
+            </div>
+            <div class="three-img">
+              <img src="knife/knife03.png" alt="">
+              <p>alternative</p>
+            </div>
+          </div>
+                    <h1 class="Abilities">Disadvantages & Advantages</h1>
+          <div class="box-Abilities">
+            <ul>
+              <li>The night</li>
+              <li>Running</li>
+            </ul>
+            <ul>
+              <li>Endurance</li>
+              <li>Strength</li>
+            </ul>
+          </div>
+            </div>
+        </div>
+       <div class="btn-bot">
+         <button>Show details</button>
+       </div>
+        </div>
+        <div class="big">
+                  <div class="info">
+          <img src="knife.jpeg" alt="">
+          <div class="subtitle">
+           <p>"Solly" embraces silence and control, finding power in patience and calculation. He moves with intent, never reckless, always aware. To him, explosives are more than weapons—they are instruments of fate, shaping outcomes with precision. Each detonation is a statement, a carefully orchestrated event that bends chaos to his will. He understands that true dominance is not in force alone, but in knowing when to strike and when to wait, turning time itself into his greatest ally</p>
+          <h1 class="Abilities">Abilities</h1>
+          <div class="box-Abilities">
+            <div class="one-img">
+              <img  src="knife/knife04.png" alt="">
+              <p>endurance</p>
+            </div>
+            <div class="two-img">
+              <img src="knife/knife05.png" alt="">
+              <p>flames</p>
+            </div>
+            <div class="three-img">
+              <img src="knife/knife06.png" alt="">
+              <p>alternative</p>
+            </div>
+          </div>
+                    <h1 class="Abilities">Disadvantages & Advantages</h1>
+          <div class="box-Abilities">
+            <ul>
+              <li>The night</li>
+              <li>Running</li>
+            </ul>
+            <ul>
+              <li>Endurance</li>
+              <li>Strength</li>
+            </ul>
+          </div>
+
+            </div>
+        </div>
+       <div class="btn-bot">
+         <button>Show details</button>
+       </div>
+        </div>
+        <div class="big">
+                  <div class="info">
+          <img src="nade.jpeg" alt="">
+          <div class="subtitle">
+           <p>"Solly" embraces silence and control, finding power in patience and calculation. He moves with intent, never reckless, always aware. To him, explosives are more than weapons—they are instruments of fate, shaping outcomes with precision. Each detonation is a statement, a carefully orchestrated event that bends chaos to his will. He understands that true dominance is not in force alone, but in knowing when to strike and when to wait, turning time itself into his greatest ally</p>
+          <h1 class="Abilities">Abilities</h1>
+          <div class="box-Abilities">
+            <div class="one-img">
+              <img  src="knife/knife07.png" alt="">
+              <p>endurance</p>
+            </div>
+            <div class="two-img">
+              <img src="knife/knife08.png" alt="">
+              <p>flames</p>
+            </div>
+            <div class="three-img">
+              <img src="knife/knife09.png" alt="">
+              <p>alternative</p>
+            </div>
+          </div>
+          <h1 class="Abilities">Disadvantages & Advantages</h1>
+          <div class="box-Abilities">
+            <ul>
+              <li>The night</li>
+              <li>Running</li>
+            </ul>
+            <ul>
+              <li>Endurance</li>
+              <li>Strength</li>
+            </ul>
+          </div>
+            </div>
+        </div>
+       <div class="btn-bot">
+         <button>Show details</button>
+       </div>
+        </div>
+      </div>
+      <h1 class="title-Hereos"> 3- Blood siphoning </h1>
+      <div class="box-info">
+        <div class="big">
+                  <div class="info">
+          <img src="boold1.jpeg" alt="">
+          <div class="subtitle">
+           <p>"Command" is a person who values silence and calm, hiding behind precision and patience. He doesn’t rush; instead, he observes carefully, knowing when to move and when to wait. In his world, the sniper rifle is not just a tool, but a means to control the moment. With a sharp eye and a steady mind, he picks his targets wisely, striking when the outcome is certain. He respects time and understands that true strength lies in mastering situations, not in reacting impulsively.</p>
+          <h1 class="Abilities">Abilities</h1>
+          <div class="box-Abilities">
+            <div class="one-img">
+              <img  src="boold/Blood01.png" alt="">
+              <p>endurance</p>
+            </div>
+            <div class="two-img">
+              <img src="boold/Blood02.png" alt="">
+              <p>flames</p>
+            </div>
+            <div class="three-img">
+              <img src="boold/Blood03.png" alt="">
+              <p>alternative</p>
+            </div>
+          </div>
+                    <h1 class="Abilities">Disadvantages & Advantages</h1>
+          <div class="box-Abilities">
+            <ul>
+              <li>The night</li>
+              <li>Running</li>
+            </ul>
+            <ul>
+              <li>Endurance</li>
+              <li>Strength</li>
+            </ul>
+          </div>
+            </div>
+        </div>
+       <div class="btn-bot">
+         <button>Show details</button>
+       </div>
+        </div>
+        <div class="big">
+                  <div class="info">
+          <img src="kolom.jpeg" alt="">
+          <div class="subtitle">
+           <p>"Solly" embraces silence and control, finding power in patience and calculation. He moves with intent, never reckless, always aware. To him, explosives are more than weapons—they are instruments of fate, shaping outcomes with precision. Each detonation is a statement, a carefully orchestrated event that bends chaos to his will. He understands that true dominance is not in force alone, but in knowing when to strike and when to wait, turning time itself into his greatest ally</p>
+          <h1 class="Abilities">Abilities</h1>
+          <div class="box-Abilities">
+            <div class="one-img">
+              <img  src="boold/boold04.png" alt="">
+              <p>endurance</p>
+            </div>
+            <div class="two-img">
+              <img src="boold/boold05.png" alt="">
+              <p>flames</p>
+            </div>
+            <div class="three-img">
+              <img src="boold/boold06.png" alt="">
+              <p>alternative</p>
+            </div>
+          </div>
+                    <h1 class="Abilities">Disadvantages & Advantages</h1>
+          <div class="box-Abilities">
+            <ul>
+              <li>The night</li>
+              <li>Running</li>
+            </ul>
+            <ul>
+              <li>Endurance</li>
+              <li>Strength</li>
+            </ul>
+          </div>
+
+            </div>
+        </div>
+       <div class="btn-bot">
+         <button>Show details</button>
+       </div>
+        </div>
+        <div class="big">
+                  <div class="info">
+          <img src="uml.jpeg" alt="">
+          <div class="subtitle">
+           <p>"Solly" embraces silence and control, finding power in patience and calculation. He moves with intent, never reckless, always aware. To him, explosives are more than weapons—they are instruments of fate, shaping outcomes with precision. Each detonation is a statement, a carefully orchestrated event that bends chaos to his will. He understands that true dominance is not in force alone, but in knowing when to strike and when to wait, turning time itself into his greatest ally</p>
+          <h1 class="Abilities">Abilities</h1>
+          <div class="box-Abilities">
+            <div class="one-img">
+              <img  src="boold/boold07.png" alt="">
+              <p>endurance</p>
+            </div>
+            <div class="two-img">
+              <img src="boold/boold08.png" alt="">
+              <p>flames</p>
+            </div>
+            <div class="three-img">
+              <img src="boold/boold09.png" alt="">
+              <p>alternative</p>
+            </div>
+          </div>
+          <h1 class="Abilities">Disadvantages & Advantages</h1>
+          <div class="box-Abilities">
+            <ul>
+              <li>The night</li>
+              <li>Running</li>
+            </ul>
+            <ul>
+              <li>Endurance</li>
+              <li>Strength</li>
+            </ul>
+          </div>
+            </div>
+        </div>
+       <div class="btn-bot">
+         <button>Show details</button>
+       </div>
+        </div>
+      </div>
+    </div>
+    <div class="skin">
+          <div class="title">
+        <h1>skins</h1>
+        <p><span>Our</span> Store for Skins</p>
+      </div>
+      <div class="box-skin">
+        <div class="one-skin">
+          <img  src="skin/skin1.jpeg" alt="">
+          <h3>Warbringer Armor</h3>
+          <div class="box-ap-skins">
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap1.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap2 .png" alt="">
+            <p>Onslaught</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap3 .png" alt="">
+            <p>Onslaught</p>
+            </div>
+          </div>
+        </div>
+        <div class="one-skin">
+          <img  src="skin/skin4.jpeg" alt="">
+                    <h3>Titan’s Embrace</h3>
+          <div class="box-ap-skins">
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap4.png" alt="">
+            <p>Lorem</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap5 .png" alt="">
+            <p>Lorem</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap6.png" alt="">
+            <p>Lorem</p>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="one-skin">
+          <img  src="skin/skin3.jpeg" alt="">
+                    <h3>Phantom Strider Boots</h3>
+                    <div class="box-ap-skins">
+            <div class="ap-skins">
+            <img src="skins-ap/running.png" alt="">
+            <p>Onslaught</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap8.png" alt="">
+            <p>Onslaught</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap9.png" alt="">
+            <p>Onslaught</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="box-skin">
+        <div class="one-skin">
+          <img  src="skin/skin4.jpeg" alt="">
+                    <h3>Stormrunner Attire</h3>
+                                        <div class="box-ap-skins">
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap10.png" alt="">
+            <p>Onslaught</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap11.png" alt="">
+            <p>Onslaught</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap12.png" alt="">
+            <p>Onslaught</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="one-skin">
+          <img  src="skin/skin5.jpeg" alt="">
+                    <h3>Wind Dancer Garb</h3>
+                                        <div class="box-ap-skins">
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap13.png" alt="">
+            <p>Onslaught</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap14.png" alt="">
+            <p>Onslaught</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap15.png" alt="">
+            <p>Onslaught</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="one-skin">
+          <img  src="skin/skin6.jpeg" alt="">
+                    <h3>Ethereal Whisper Cloak</h3>
+                                        <div class="box-ap-skins">
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap7.png" alt="">
+            <p>Onslaught</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap17.png" alt="">
+            <p>Onslaught</p>
+            </div>
+            <div class="ap-skins">
+            <img src="skins-ap/sk-ap18.png" alt="">
+            <p>Onslaught</p>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+        <!-- content -->
+    <div  class="contant">
+                <div class="title">
+        <h1>contact</h1>
+        <p>Contact Us</p>
+      </div>
+
+      <div class="box-content">
+        <a href="https://www.facebook.com/?locale=ar_AR" target="_blank">
+          <img src="facebook.png" alt="" />
+          <button>facebook</button>
+        </a>
+        <a href="https://www.instagram.com/midofayad12/" target="_blank">
+          <img class="top" src="instgram.jpg" alt="" />
+          <button>instgram</button>
+        </a>
+        <a href="https://github.com/mohammedhosnyfayad"  target="_blank">
+          <img src="Github.jpg" alt="" />
+          <button>Github</button>
+        </a>
+      </div>
+    </div> 
+      <div id="support" class="footer">
+<div class="box-footer">
+  <div class="links">
+    <a target="_blank" href="https://www.facebook.com/gokermido22?locale=ar_AR"><p>facebook</p></a>
+    <a target="_blank" href="https://www.instagram.com/midofayad12/"><p>instgram</p></a>
+    <a target="_blank" href="https://www.facebook.com/?locale=ar_AR"><p>Github</p></a>
+  </div>
+  <div class="links">
+    <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=mohamedhosnyfayad@gmail.com"><p>gmail</p></a>
+    <a target="_blank" href="https://compose.mail.yahoo.com/?to=midohosny00@yahoo.com"><p>yahoo</p></a>
+    <a target="_blank" href="https://outlook.live.com/mail/deeplink/compose?to=r3d3020@outlook.com"><p>outlook</p></a>
+  </div>
+  <div class="links">
+    <a target="_blank" href="https://www.facebook.com/gokermido22?locale=ar_AR"><p>YouTube</p></a>
+    <a target="_blank" href="https://www.facebook.com/gokermido22?locale=ar_AR"><p>twitch</p></a>
+    <a target="_blank" href="https://www.facebook.com/gokermido22?locale=ar_AR"><p>tiktok</p></a>
+  </div>
+</div>
+      </div>
+  </body>
+  <script src="main.js"></script>
+</html>
